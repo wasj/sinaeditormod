@@ -38,7 +38,7 @@ SinaEditor.CONF.fakeFLASH = SinaEditor.CONF.STYLELOC+"imgs/fake_flash.png";
 SinaEditor.CONF.aBubbleTemplete = ['<div class="se_bubble_a_panel">',
 									'<div>',
 										'<div>',
-											'<span>转到链接：</span>',
+											'<span>Go to link:</span>',
 											'<span style="color: black;">',
 												'<a class="se_bubble_a_link" href="#{src}" target="_blank">',
 													'#{srcstr}',
@@ -46,11 +46,11 @@ SinaEditor.CONF.aBubbleTemplete = ['<div class="se_bubble_a_panel">',
 											'</span>',
 											'<span>',
 												'&nbsp;&nbsp;',
-												'<span class="se_bubble_a_link" id="#{modifyid}">更改</span>',
+												'<span class="se_bubble_a_link" id="#{modifyid}">Change</span>',
 											'</span>',
 											'<span>',
 												'&nbsp;&nbsp;',
-												'<span class="se_bubble_a_link" id="#{deleteid}">删除</span>',
+												'<span class="se_bubble_a_link" id="#{deleteid}">Remove</span>',
 											'</span>',
 										'</div>',
 									'</div>',
@@ -63,11 +63,11 @@ SinaEditor.CONF.mailBubbleTemplete = ['<div class="se_bubble_a_panel">',
 											'</span>',
 											'<span>',
 												'&nbsp;&nbsp;',
-												'<span class="se_bubble_a_link" id="#{modifyid}">更改</span>',
+												'<span class="se_bubble_a_link" id="#{modifyid}">Change</span>',
 											'</span>',
 											'<span>',
 												'&nbsp;&nbsp;',
-												'<span class="se_bubble_a_link" id="#{deleteid}">删除</span>',
+												'<span class="se_bubble_a_link" id="#{deleteid}">Remove</span>',
 											'</span>',
 										'</div>',
 									'</div>',
@@ -76,11 +76,11 @@ SinaEditor.CONF.imgBubbleTemplete = ['<div class="se_bubble_a_panel">',
 									'<div>',
 										'<div>',
 											'<span>',
-												'<span class="se_bubble_a_link" id="#{modifyid}">更改图片</span>',
+												'<span class="se_bubble_a_link" id="#{modifyid}">Change Image</span>',
 											'</span>',
 											'<span>',
 												'&nbsp;&nbsp;',
-												'<span class="se_bubble_a_link" id="#{deleteid}">删除图片</span>',
+												'<span class="se_bubble_a_link" id="#{deleteid}">Delete Image</span>',
 											'</span>',
 										'</div>',
 									'</div>',
@@ -89,10 +89,10 @@ SinaEditor.CONF.flashBubbleTemplete = ['<div class="se_bubble_a_panel">',
 									'<div>',
 										'<div style="float:left;">',
 											'<span>',
-												'<span class="se_bubble_a_link" id="#{seeid}">查看影片&nbsp;-&nbsp;</span>',
+												'<span class="se_bubble_a_link" id="#{seeid}">Preview Movie -&nbsp;</span>',
 											'</span>',
 											'<span>',
-												'<span class="se_bubble_a_link" id="#{deleteid}">删除影片</span>',
+												'<span class="se_bubble_a_link" id="#{deleteid}">Delete Movie</span>',
 											'</span>',
 											'<div style="border:1px solid;display:none;" id="#{showflash}"></div>',
 										'</div>',
@@ -252,61 +252,61 @@ if (!SinaEditor.TOOLCONF) {
 }
 
 SinaEditor.TOOLCONF.COLOR = {
-	'000000' : '黑',
-	'800000' : '褐红',
-	'8B4513' : '深褐',
-	'2F4F4F' : '墨绿',
-	'008080' : '绿松石',
-	'000080' : '海军蓝',
-	'4B0082' : '靛蓝',
-	'696969' : '暗灰',
-	'B22222' : '砖红',
-	'A52A2A' : '褐',
-	'DAA520' : '金黄',
-	'006400' : '深绿',
-	'40E0D0' : '蓝绿',
-	'0000CD' : '中蓝',
-	'800080' : '紫',
-	'808080' : '灰',
-	'F00' : '红',
-	'FF8C00' : '深橙',
-	'FFD700' : '金',
-	'008000' : '绿',
-	'0FF' : '青',
-	'00F' : '蓝',
-	'EE82EE' : '紫罗兰',
-	'A9A9A9' : '深灰',
-	'FFA07A' : '亮橙',
-	'FFA500' : '橙',
-	'FFFF00' : '黄',
-	'00FF00' : '水绿',
-	'AFEEEE' : '粉蓝',
-	'ADD8E6' : '亮蓝',
-	'DDA0DD' : '梅红',
-	'D3D3D3' : '淡灰',
-	'FFF0F5' : '淡紫红',
-	'FAEBD7' : '古董白',
-	'FFFFE0' : '淡黄',
-	'F0FFF0' : '蜜白',
-	'F0FFFF' : '天蓝',
-	'F0F8FF' : '淡蓝',
-	'E6E6FA' : '淡紫',
-	'FFF' : '白'
+	'000000' : 'Black',
+	'800000' : 'Maroons',
+	'8B4513' : 'Sepia',
+	'2F4F4F' : 'Dark green',
+	'008080' : 'Turquoise',
+	'000080' : 'Navy',
+	'4B0082' : 'Indigo',
+	'696969' : 'Dark gray',
+	'B22222' : 'Brick red',
+	'A52A2A' : 'Brown',
+	'DAA520' : 'Golden',
+	'006400' : 'Dark green',
+	'40E0D0' : 'Blue-green',
+	'0000CD' : 'Medium blue',
+	'800080' : 'Purple',
+	'808080' : 'Gray',
+	'F00' : 'Red',
+	'FF8C00' : 'Deep orange',
+	'FFD700' : 'Gold',
+	'008000' : 'Green',
+	'0FF' : 'Green',
+	'00F' : 'Blue',
+	'EE82EE' : 'Violet',
+	'A9A9A9' : 'Dark gray',
+	'FFA07A' : 'Bright orange',
+	'FFA500' : 'Orange',
+	'FFFF00' : 'Yellow',
+	'00FF00' : 'Aqua',
+	'AFEEEE' : 'Blue',
+	'ADD8E6' : 'Brilliant Blue',
+	'DDA0DD' : 'Plum',
+	'D3D3D3' : 'Light gray',
+	'FFF0F5' : 'Purple red',
+	'FAEBD7' : 'Antique white',
+	'FFFFE0' : 'Yellow',
+	'F0FFF0' : 'Honey White',
+	'F0FFFF' : 'Azure',
+	'F0F8FF' : 'Light blue',
+	'E6E6FA' : 'Purple',
+	'FFF' : 'White'
 };
 
 //配置字体的样式
-SinaEditor.TOOLCONF.FONTFAMILYDEF = '字体';
+SinaEditor.TOOLCONF.FONTFAMILYDEF = 'Font';
 SinaEditor.TOOLCONF.FONTFAMILYCONF = [{
-    'html': '宋体'
+    'html': 'SimSun'
 }, {
-    'html': '黑体'
+    'html': 'SimHei'
 }, {
-    'html': '隶书'
+    'html': 'SimLi'
 }, {
-    'html': '楷体',
-    'style': '楷体_GB2312,楷体'
+    'html': 'SimKai',
+    'style': 'SimKai,STKaiti'
 }, {
-    'html': '幼圆'
+    'html': 'SimYou'
 }, {
     'html': 'Arial'
 }, {
@@ -322,7 +322,7 @@ SinaEditor.TOOLCONF.FONTFAMILYCONF = [{
 }];
 
 //配置字体的大小
-SinaEditor.TOOLCONF.FONTSIZEDEF = '字号';
+SinaEditor.TOOLCONF.FONTSIZEDEF = 'Size';
 SinaEditor.TOOLCONF.FONTSIZECONF = [{
     'html': '10px'
 }, {
@@ -347,15 +347,15 @@ SinaEditor.TOOLCONF.FONTSIZECONF = [{
 
 //链接的弹出浮层
 SinaEditor.TOOLCONF.linkTemplate = ['<div class="linkItemContent">',
-	'<div class="row1" id="#{hidden}" style="display:none">文字:',
+	'<div class="row1" id="#{hidden}" style="display:none">Text:',
 		'<input class="fm1" id="#{text}">',
 	'</div>',
-	'<div class="row2">链接:',
+	'<div class="row2">Link:',
 		'<input value="http://" class="fm1" id="#{link}">',
 	'</div>',
 	'<div class="row3">',
-		'<a onclick="return false" id="#{ok}" href="#" class="SG_aBtn SG_aBtnB"><cite>确定</cite></a>',
-		'<a onclick="return false" id="#{cancel}" href="#" class="SG_aBtn SG_aBtnB"><cite>取消</cite></a>',
+		'<a onclick="return false" id="#{ok}" href="#" class="SG_aBtn SG_aBtnB"><cite>OK</cite></a>',
+		'<a onclick="return false" id="#{cancel}" href="#" class="SG_aBtn SG_aBtnB"><cite>Cancel</cite></a>',
 	'</div>',
 '</div>'].join('');
 
@@ -365,32 +365,32 @@ SinaEditor.TOOLCONF.addLinkNow = /.*(http|ftp|https|mailto)\:\/\/.*/i;
 //上传图片的类型
 SinaEditor.TOOLCONF.imgType = /.*\.(gif|bmp|png|jpg)$/i;
 //类型错误的MSG
-SinaEditor.TOOLCONF.imgErrTypeMSG = '上传类型仅仅支持gif,bmp,png,jpg';
+SinaEditor.TOOLCONF.imgErrTypeMSG = 'Only gif, bmp, png, jpg images can be uploaded';
 
 //图片上传的浮层
 SinaEditor.TOOLCONF.imgTemplate = ['<div class="insetPhotoContent insetPhotoContent_l">',
 	'<div id="headerTab" class="headerTab">',
-	'<h4>图片来源：</h4>',
-	'<ul><li class="cur" id="#{tabMy}"><a href="#" onclick="return false;">我的电脑</a></li><li id="#{tabWeb}" class=""><a href="#" onclick="return false;">网上图片</a></li></ul></div>',
+	'<h4>Insert image from:</h4>',
+	'<ul><li class="cur" id="#{tabMy}"><a href="#" onclick="return false;">Local computer</a></li><li id="#{tabWeb}" class=""><a href="#" onclick="return false;">the web</a></li></ul></div>',
 	'<div style="display:none" id="#{errTips}" class="errTips"></div>',
-	'<!--出错提示-->',
+	'<!-- Error info -->',
 	'<div id="#{useClient}" class="urlPath">',
 		'<div id="#{clientView}">',
-			'<span>选择本地图片：</span>',
+			'<span>Choose an local image:</span>',
 			'<div id="#{clientUploadDiv}" class="clientUploadDiv" >',
 				//TODO 这里需要配置上传的地址。
 				'<form target="#{clientIframe}" id="#{clientForm}" action="postImg.php" method="POST" enctype="multipart/form-data">',
 					'<input type="file" name="imgFile" class="imgFile" id="#{clientFile}">',
 					'<textarea name="imgValue" style="display:none" id="#{clientFileDrag}"></textarea>',
 				'</form>',
-				'<div>点击这里选择文件。请配置上传地址，否则上传会失败。<span id="#{clientMoreUp}" style="display:none;">你也可以拖拽上传</span></div>',
+				'<div>Click here to choose an file. Please config a server-side script or upload may fail. <span id="#{clientMoreUp}" style="display:none;">You can also upload by drag and drop</span></div>',
 			'</div>',
 			'<iframe id="#{clientIframe}" name="#{clientIframe}" style="display:none" ></iframe>',
 		'</div>',
 		'<div id="#{contentLoading}" style="display:none">',
 			'<div class="loading"></div>',
 			'<a class="SG_aBtn SG_aBtnB SG_aBtn_sub" href="#" onclick="return false;">',
-				'<cite id="#{cancleClient}">取消上传</cite>',
+				'<cite id="#{cancleClient}">Cancel upload</cite>',
 			'</a>',
 		'</div>',
 		'<div id="#{clientResult}" style="display:none">',
@@ -398,19 +398,19 @@ SinaEditor.TOOLCONF.imgTemplate = ['<div class="insetPhotoContent insetPhotoCont
 				'<img id="#{resultPic}">',
 			'</div>',
 			'<a class="SG_aBtn SG_aBtnB SG_aBtn_sub" href="#" onclick="return false;">',
-				'<cite id="#{addClientPic}">添加</cite>',
+				'<cite id="#{addClientPic}">Add</cite>',
 			'</a>',
 			'<a class="SG_aBtn SG_aBtnB SG_aBtn_sub" href="#" onclick="return false;">',
-				'<cite id="#{resetClient}">重新上传</cite>',
+				'<cite id="#{resetClient}">Re-upload</cite>',
 			'</a>',
 		'</div>',
 	'</div>',
 	'<div style="display: none;" id="#{webContent}" class="urlPath">',
 		'<div>',
-			'<span>输入图片地址：</span>',
+			'<span>Type in an URL to the image:</span>',
 			'<input type="text" class="fmTxt" value="http://" id="#{webUrl}" maxlength="400">',
 			'<a id="#{webAdd}" style="display:none;" class="SG_aBtn SG_aBtnB" href="#" onclick="return false;">',
-				'<cite>添加</cite>',
+				'<cite>Add</cite>',
 			'</a>',
 		'</div>',
 		'<div class="webImg" style="display:none;">',
@@ -421,15 +421,15 @@ SinaEditor.TOOLCONF.imgTemplate = ['<div class="insetPhotoContent insetPhotoCont
 '</div>'].join('');
 
 SinaEditor.TOOLCONF.flashTemplate = ['<div class="linkItemContent">',
-	'<div class="row1">HTML代码:',
+	'<div class="row1">HTML Code:',
 		'<input class="fm1" style="width:100%;margin-top:3px" id="#{flashSrc}">',
 	'</div>',
 	'<div class="row1">',
-		'<span style="color:red;display:none" id="#{flashErrTip}">*请输入flash代码</span>',
+		'<span style="color:red;display:none" id="#{flashErrTip}">* Please insert code snippets of a flash movie</span>',
 	'</div>',
 	'<div class="row3">',
-		'<a onclick="return false" href="#" class="SG_aBtn SG_aBtnB"><cite id="#{ok}">确定</cite></a>',
-		'<a onclick="return false" href="#" class="SG_aBtn SG_aBtnB"><cite id="#{cancel}">取消</cite></a>',
+		'<a onclick="return false" href="#" class="SG_aBtn SG_aBtnB"><cite id="#{ok}">OK</cite></a>',
+		'<a onclick="return false" href="#" class="SG_aBtn SG_aBtnB"><cite id="#{cancel}">Cancel</cite></a>',
 	'</div>',
 '</div>'].join('');
 
@@ -452,8 +452,8 @@ SinaEditor.TOOLCONF.faceTemplate = '<div class="se_face_bubble" id="#{panel}"></
 // ==/ClosureCompiler==
 
 SinaEditor.TOOLCONF.faceSrc = [
-	{'src':'http://www.sinaimg.cn/uc/myshow/blog/misc/gif/E___7400ZH00SIGG.gif' , 'title':'左哼哼'},
-	{'src':'http://www.sinaimg.cn/uc/myshow/blog/misc/gif/E___7401ZH00SIGG.gif' , 'title': '右哼哼'},
+	{'src':'http://www.sinaimg.cn/uc/myshow/blog/misc/gif/E___7400ZH00SIGG.gif' , 'title':'Left humming'},
+	{'src':'http://www.sinaimg.cn/uc/myshow/blog/misc/gif/E___7401ZH00SIGG.gif' , 'title': 'Right humming'},
 	{'src':'http://www.sinaimg.cn/uc/myshow/blog/misc/gif/E___7402ZH00SIGG.gif' },
 	{'src':'http://www.sinaimg.cn/uc/myshow/blog/misc/gif/E___7403ZH00SIGG.gif'},
 	{'src':'http://www.sinaimg.cn/uc/myshow/blog/misc/gif/E___7404ZH00SIGG.gif'},
@@ -768,7 +768,7 @@ SinaEditor.ev = {};
 			
 			opt.args = opt.args || [];
 			if(Object.prototype.toString.apply(opt.args) !== '[object Array]') {
-				throw new Exception('opt.args 必须是数组');
+				throw new Exception('opt.args must be an array');
 			}
 			_proxyFuncs[uid] = _getProxyFunc(uid,opt.content,opt.args);
 			
@@ -1007,14 +1007,14 @@ if (!window.SinaEditor) {
         if (this.__interface__) {
             for (k in this.prototype) {
                 if (this.prototype[k] === "NI") {
-                    throw new Error("类定义错误，接口方法[" + k + "]未实现");
+                    throw new Error("Class def error, protocol method [" + k + "] not implemented");
                 }
             }
         }
         
         this.prototype.constructor = this;
         this.$extends = this.$define = this.$implements = function(){
-            throw new Error("$define语句定义后面不能再作其它定义");
+            throw new Error("there should be no other definition after $define clause");
         };
         return this;
     };
@@ -1028,7 +1028,7 @@ if (!window.SinaEditor) {
         var me = this, i = arguments.length, sup, fn;
         
         if (i === 0) {
-            throw new Error("$extends语句错误：未指定父类");
+            throw new Error("$extends syntax error: parent class not specified");
         }
         
         sup = arguments[0];
@@ -1053,7 +1053,7 @@ if (!window.SinaEditor) {
         
         while (i--) {
             if (typeof arg[i] !== "object") {
-                throw new Error("$implements语句错误：参数必须为object类型");
+                throw new Error("$implements syntax error: paramenters should be of object type");
             }
             
             for (k in arg[i]) {
@@ -1066,7 +1066,7 @@ if (!window.SinaEditor) {
         this.__interface__ = true;
         
         this.$extends = function(){
-            throw new Error("$extends语句错误:$extends语句不能出现在$implements定义之后");
+            throw new Error("$extends syntax error: $extends clause should be before the definition of $implements");
         };
         
         return this;
@@ -1807,7 +1807,7 @@ SinaEditor.pkg('SinaEditor.util.dom',function(ns) {
 	 */
 	ns.outerHTML = function(element){
 		if (element.outerHTML) {
-			console.log('原生outerHTML');
+			console.log('native outerHTML');
 			return element.outerHTML;
 		}
 		//new XMLSerializer().serializeToString(oElement);??
@@ -2917,7 +2917,7 @@ SinaEditor.pkg('SinaEditor.range', function(ns){
             //父节点肯定有tagName
             if (nextEl.tagName.toUpperCase() == 'HTML') {
                 //到达了最高级
-                throw '确定在遍历节点时有结束标记的节点?';
+                throw 'Have you closed all node tags?';
             }
             //鸡肋
             elm = nextEl;
@@ -3040,7 +3040,7 @@ SinaEditor.pkg('SinaEditor.range', function(ns){
         
         //if (parent.tagName.toUpperCase() == conf['useTagName']) {
 		if (parent.tagName.toUpperCase() === conf.useTagName) {
-            console.log("它的父节点是span!");
+            console.log("Parent node is span!");
             if (SinaEditor.util.trim(parent.textContent) != SinaEditor.util.trim(element.data)) {
                 range.selectNode(element);
                 range.surroundContents(span);
@@ -3054,7 +3054,7 @@ SinaEditor.pkg('SinaEditor.range', function(ns){
             return parent;
         }
         if (parent.tagName.toUpperCase() == 'BODY') {
-            console.log("它的父节点是Body!");
+            console.log("Parent node is Body!");
             range.selectNode(element);
             range.surroundContents(span);
             return span;
@@ -3062,20 +3062,20 @@ SinaEditor.pkg('SinaEditor.range', function(ns){
         else {
             //如果不是span，需要确认是什么标签,块级标签和非块级的就得分开进行
             if (SinaEditor.RANGE.BLOCKTAGS[element.parentNode.tagName.toUpperCase()]) {
-                console.log("是块状标签");
+                console.log("Element is block");
                 //块状，把span套在里面
                 range.selectNode(element);
                 range.surroundContents(span);
                 return span;
             }
             else {
-                console.log("非块状标签");
+                console.log("Element isn't block");
                 var pParent = parent.parentNode;
                 //父节点是否是span
                 //if (pParent && pParent.nodeType == 1 && pParent.tagName.toUpperCase() == conf['useTagName']) {
 				if (pParent && pParent.nodeType === SinaEditor.NODETYPE.ELEMENT 
 					&& pParent.tagName.toUpperCase() == conf.useTagName) {
-                    console.log("它的父节点的父节点是span");
+                    console.log("Parent node's parent node is span");
                     if (SinaEditor.util.trim(pParent.textContent) == SinaEditor.util.trim(element.data)) {
                         //if (conf['style']) {
 						if (conf.style) {
@@ -3091,7 +3091,7 @@ SinaEditor.pkg('SinaEditor.range', function(ns){
                     }
                 }
                 else {
-                    console.log("它的父节点的父节点不是span，是:");
+                    console.log("Parent node's parent node isn't span, but:");
                     console.log(pParent);
                     if (SinaEditor.util.trim(parent.textContent) == SinaEditor.util.trim(element.data)) {
                         //全部选中
@@ -3116,7 +3116,7 @@ SinaEditor.pkg('SinaEditor.range', function(ns){
      */
     function _handleElementSelected(editor, element, conf){
         //是一个DOM节点,可能还有DOM节点在里面!小心
-        console.log('是一个DOM节点');
+        console.log('DOM node');
         console.log(element);
         if (SinaEditor.RANGE.SKIPTAGS[element.tagName.toUpperCase()]) {
             return element;
@@ -3143,7 +3143,7 @@ SinaEditor.pkg('SinaEditor.range', function(ns){
 
         //if (element.tagName.toUpperCase() == 'SPAN') {
 		if (element.tagName.toUpperCase() === conf.useTagName) {
-            console.log("是span");
+            console.log("span");
             var arr = domUtil.getChildren(element, {
                 'all': true,
                 'onlyElement': true
@@ -3171,13 +3171,13 @@ SinaEditor.pkg('SinaEditor.range', function(ns){
         else {
             //是块状标签?
             if (SinaEditor.RANGE.BLOCKTAGS[element.tagName.toUpperCase()]) {
-                console.log("是块状标签");
+                console.log("block tag");
                 //只有一个子节点?
                 var children = element.childNodes;
                 //if (children.length == 1 && children[0].nodeType == 1 && children[0].tagName.toUpperCase() == conf['useTagName']) {
 				if (children.length === SinaEditor.NODETYPE.ELEMENT && children[0].nodeType == SinaEditor.NODETYPE.ELEMENT 
 					&& children[0].tagName.toUpperCase() == conf.useTagName) {
-                    console.log("只有一个子节点,且为span");
+                    console.log("the only child node is span");
                     //if (conf['style']) {
 					if (conf.style) {
                         //children[0].style[conf['style']] = conf['value'];
@@ -3185,18 +3185,18 @@ SinaEditor.pkg('SinaEditor.range', function(ns){
                     }
                 }
                 else {
-                    console.log("无子节点或子节点不是span标签");
+                    console.log("no child node or child node isn't span element");
                     range.selectNodeContents(element);
                     range.surroundContents(span);
                 }
             }
             else {
-                console.log("非块状标签");
+                console.log("not block element");
                 //有无父节点
                 var parent = element.parentNode;
                 //if (parent && parent.tagName.toUpperCase() == conf['useTagName']) {
 				if (parent && parent.tagName.toUpperCase() == conf.useTagName) {
-                    console.log("有父节点且是span");
+                    console.log("Parent node is span");
                     //if (conf['style']) {
 					if (conf.style) {
                         //parent.style[conf['style']] = conf['value'];
@@ -3205,7 +3205,7 @@ SinaEditor.pkg('SinaEditor.range', function(ns){
                     retEle = parent;
                 }
                 else {
-                    console.log("无父节点或不是span标签");
+                    console.log("No parent node or parent node isn't span");
                     range.selectNode(element);
                     range.surroundContents(span);
                     retEle = span;
@@ -3326,16 +3326,16 @@ SinaEditor.ev.customEvent.editorHasSelection = function(editor) {
 	function doo() {
 		editor.entyWin.clearTimeout(editor._.editorHasSelectionBufferTimmer);
         editor._.editorHasSelectionBufferTimmer = editor.entyWin.setTimeout(function(){
-            console.log("空闲1秒检测");
+            console.log("Check every 1 second");
             var ranges = SinaEditor.range.getCurrentRanges(editor.entyWin);
 			var i;
 			for(i=0; ranges[i]; i++) {
 				if(!ranges[i].collapsed) {
-					console.log('出现了选区');
+					console.log('Selection found');
 					return;
 				}
 			}
-			console.log('没有选区');
+			console.log('No selection');
         }, 1000);
 	}
 	
@@ -4339,7 +4339,7 @@ SinaEditor.$abstract.baseEditor = function(oOption){
 						if(_this.option.eventBlackList.indexOf(ev) < 0) {
 							SinaEditor.ev.$regEvent(ev,_this);
 						} else {
-							console.log(_this.option.id+'在黑名单中：'+ev);
+							console.log(_this.option.id+'Blacklisted:'+ev);
 						}
 					}
 				}
@@ -4349,7 +4349,7 @@ SinaEditor.$abstract.baseEditor = function(oOption){
 				_this.setState(SinaEditor.STATE.CREATED);
 				_this.setState(SinaEditor.STATE.EDITING);
 			} else {
-				console.log("等一下");
+				console.log("Hold on");
 				i--;
 			}
         }, 10);
@@ -4390,13 +4390,13 @@ SinaEditor.$abstract.baseEditor = function(oOption){
 		}
 		var jobObj = plugnFuc.call(this,pluginConf.args || {}) || {};
 		//var jobObj = SinaEditor.plugins[pluginConf.name](this,pluginConf.args);
-		console.log(this.option.id+'添加job:'+pluginConf.name);
+		console.log(this.option.id+'Adding job:'+pluginConf.name);
         //var job = jobObj['initialize'];
 		var job = jobObj.initialize;
 		//var jEvents = jobObj['events'];
 		var jEvents = jobObj.events;
         if (typeof jobObj == 'undefined') {
-            this.error("<b>Job[" + pluginConf.name + "] is undefiend!!!</b>");
+            this.error("<b>Job[" + pluginConf.name + "] is undefined!!!</b>");
             return;
         }
         var _try = true;
@@ -4412,10 +4412,10 @@ SinaEditor.$abstract.baseEditor = function(oOption){
 					var ev = null;
 					
 					if(!target) {
-						console.error('!!!!!+'+ev+'+绑定失败...');
+						console.error('!!!!!+'+ev+'+Binding failed...');
 					}
 					for(ev in events) {
-						console.log(target + '绑定' + ev);
+						console.log(target + 'Bind' + ev);
 						SinaEditor.ev.add(target , ev , events[ev],{'srcEditor':this});
 					}
 				}
@@ -4814,7 +4814,7 @@ SinaEditor.$abstract.redoManager = function(){
      */
     ,save: function(editor){
 		//return
-        console.log("保存:" + editor.option.id);
+        console.log("Save:" + editor.option.id);
         var len = this.cache[editor.option.id].length;
         //当前游标
         var i = this.points[editor.option.id];
@@ -4826,16 +4826,16 @@ SinaEditor.$abstract.redoManager = function(){
 		var bookmarks = this._converToBookMark(ranges);
 		
         if (oldHTML !== newHTML) {
-            console.log("数据不一样，保存");
+            console.log("Changed, save");
             
             if ((i + 1) != len) {
-                console.log("清除历史分支");
+                console.log("Clear history");
                 this.cache[editor.option.id].splice(i + 1, len);
                 len = this.cache[editor.option.id].length;
             }
             
             if (len == this.maxLan) {
-                console.log("到达最后记录点");
+                console.log("reached ending record");
                 this.cache[editor.option.id].shift();
                 len--;
             }
@@ -4847,7 +4847,7 @@ SinaEditor.$abstract.redoManager = function(){
             this.points[editor.option.id] = len;
         } else {
 			//更新range
-			console.log('更新当前range');
+			console.log('Update current range');
 			this.cache[editor.option.id][i].ranges = bookmarks;
 		}
 		this._fireEvent(editor);
@@ -4859,11 +4859,11 @@ SinaEditor.$abstract.redoManager = function(){
 	 */
     redo: function(editor){
 		//return;
-        console.log("重做:" + editor.option.id);
+        console.log("Redo:" + editor.option.id);
         var i = this.points[editor.option.id];
         var len = this.cache[editor.option.id].length;
         if ((i + 1) == len) {
-            console.log("已经重做到尽头");
+            console.log("Reached redo limit");
             return;
         }
         this.points[editor.option.id] = ++i;
@@ -4885,10 +4885,10 @@ SinaEditor.$abstract.redoManager = function(){
     undo: function(editor){
 		//return;
         //当前游标回退
-        console.log("回退:" + editor.option.id);
+        console.log("--:" + editor.option.id);
         var i = this.points[editor.option.id];
         if (i <= 0) {
-            console.log("已经回退到尽头");
+            console.log("--|");
             return;
         }
 		
@@ -5089,7 +5089,7 @@ SinaEditor.plugins.add('backcolor',function(args){
 	 */
 	editor.operation.backcolor = function(color){
         editor.operation.save(editor);
-		console.log('背景颜色修改');
+		console.log('Background color changed');
 		SinaEditor.range.applyStyle(editor, {
             'useTagName': 'span',
 			'style': 'backgroundColor',
@@ -5104,7 +5104,7 @@ SinaEditor.plugins.add('backcolorBtn',function(args){
 	var editor = this;
 
 	var btnConf = {
-		title:'背景颜色',
+		title:'Background color',
 		normalClass : 'ico_hilitecolor_1'
 		,disabledClass : 'ico_hilitecolor_4'
 		,clickedClass : 'ico_hilitecolor_3'
@@ -5261,13 +5261,13 @@ SinaEditor.plugins.add('bold',function(args){
 		var isBold = editor.operateState.bold;
 		
 		if(isBold) {
-			console.log('执行去加粗操作');
+			console.log('UnBold');
 			SinaEditor.range.removeStyle(editor, {
 	            'useTagName': ['strong','b']
 	        });
 			btn.setState(SinaEditor.BUTTONSTATE.NORMAL);
 		} else {
-			console.log('执行加粗操作');
+			console.log('Bold');
 			SinaEditor.range.applyStyle(editor, {
 	            'useTagName': 'strong'
 	        });
@@ -5309,7 +5309,7 @@ SinaEditor.plugins.add('boldBtn',function(args){
 	var editor = this;
 	
 	var btnConf = {
-		title:'加粗',
+		title:'Bold',
 		normalClass : 'ico_bold_1'
 		,disabledClass : 'ico_bold_4'
 		,clickedClass : 'ico_bold_3'
@@ -5385,7 +5385,7 @@ SinaEditor.plugins.add('faceUIBtn',function(args){
 	var editor = this;
 
 	var btnConf = {
-		title:'表情'
+		title:'Smilies'
 		,normalClass : 'ico_face_1'
 		,disabledClass : 'ico_face_4'
 		,clickedClass : 'ico_face_3'
@@ -5578,7 +5578,7 @@ SinaEditor.plugins.add('flashUIBtn',function(args){
     var editor = this;
 	
 	var btnConf = {
-		title:'插入flash',
+		title:'Insert flash',
         normalClass: 'ico_video_1',
         disabledClass: 'ico_video_4',
         clickedClass: 'ico_video_3',
@@ -5614,7 +5614,7 @@ SinaEditor.plugins.add('flashUIPanel',function(args){
     var editor = this;
     
     var flashPanel = SinaEditor.winDialog.create({
-        title: '添加flash',
+        title: 'Adding flash',
         content: SinaEditor.TOOLCONF.flashTemplate,
         funcClose: function(){
 			_back();
@@ -5710,7 +5710,7 @@ SinaEditor.plugins.add('fontSizeBtn',function(args){
 	var editor = this;
 
 	var btnConf = {
-		title:'文字大小',
+		title:'Font size',
         normalClass: 'ico_fontsize_1',
         properties: {
             'innerHTML': '<span>' + SinaEditor.TOOLCONF.FONTSIZEDEF + '</span>'
@@ -5738,7 +5738,7 @@ SinaEditor.plugins.add('fontSizePanel',function(args){
 	
 	var _createDomHTML = function(eid){
         var sizes = _fontSizeConf;
-        var str = ['<div class="fontItemTitle">字号</div>'];
+        var str = ['<div class="fontItemTitle">Font size</div>'];
         var size, style,i;
         for (i = 0; sizes[i]; i++) {
             size = sizes[i].html;
@@ -5866,7 +5866,7 @@ SinaEditor.plugins.add('fontFamilyBtn',function(args){
 	var _fontConf = args.conf || SinaEditor.TOOLCONF.FONTFAMILYCONF;
 
 	var btnConf = {
-		title:'字体',
+		title:'Font',
         normalClass: 'ico_family_1',
         properties: {
             'innerHTML': '<span>' + SinaEditor.TOOLCONF.FONTFAMILYDEF + '</span>'
@@ -5886,7 +5886,7 @@ SinaEditor.plugins.add('fontFamilyBtn',function(args){
 	
 	
 	var _createDomHTML = function(eid){
-        var str = ['<div class="fontItemTitle">字体</div>'];
+        var str = ['<div class="fontItemTitle">Font</div>'];
         var family, style,i;
         for (i = 0; _fontConf[i]; i++) {
             family = _fontConf[i].html;
@@ -6034,7 +6034,7 @@ SinaEditor.plugins.add('forecolor',function(args){
 		
         editor.operation.save(editor);
 		
-		console.log('文字颜色修改');
+		console.log('Text color changed');
 		SinaEditor.range.applyStyle(editor, {
             'useTagName': 'span',
 			'style': 'color',
@@ -6051,7 +6051,7 @@ SinaEditor.plugins.add('forecolorBtn',function(args){
 	var editor = this;
 
 	var btnConf = {
-		title:'文字颜色',
+		title:'Text color',
 		normalClass : 'ico_forecolor_1'
 		,disabledClass : 'ico_forecolor_4'
 		,clickedClass : 'ico_forecolor_3'
@@ -6307,7 +6307,7 @@ SinaEditor.plugins.add('historyUIBtn',function(args){
 	var editor = this;
 
 	var btnConf = {
-		title:'历史版本',
+		title:'Revisions',
 		normalClass : 'ico_quicksave_1'
 		,disabledClass : 'ico_quicksave_4'
 		,clickedClass : 'ico_quicksave_3'
@@ -6519,7 +6519,7 @@ SinaEditor.plugins.add('imgUIBtn',function(args){
     var editor = this;
 
 	var btnConf = {
-		title:'插入图片',
+		title:'Insert image',
         normalClass: 'ico_img_1',
         disabledClass: 'ico_img_4',
         clickedClass: 'ico_img_3',
@@ -6557,7 +6557,7 @@ SinaEditor.plugins.add('imgUIPanel',function(args){
     var MAX_WIDTH = 630;
     
     var imgPanel = SinaEditor.winDialog.create({
-        title: '添加图片',
+        title: 'Insert image',
         content: SinaEditor.TOOLCONF.imgTemplate,
         funcClose: function(){
 			if(showMy) {
@@ -6757,7 +6757,7 @@ SinaEditor.plugins.add('imgUIPanel',function(args){
 							img.onerror = function() {
 								webAdd.style.display = 'none';
 								//TODO 放到配置里
-								_errLogic.showErr('您输入的图片不是正确的地址，请重新输入。');
+								_errLogic.showErr('Invalid image url, please try again.');
 								webPicContainer.style.display = 'none';
 								webPicLoading.style.display = 'none';
 							};
@@ -6879,11 +6879,11 @@ SinaEditor.plugins.add('imgUIPanel',function(args){
             "element": clientIframe,
             "events": {
 				'load' : function() {
-					console.log('.......客户端的华丽家在！！！');
+					console.log('.......client loaded！！！');
 					try {
 						var val = clientIframe.contentWindow.document.body.innerHTML;
 						if(!val) {
-							console.log('没有加载东西！虚报');
+							console.log('false positive');
 							return;
 						}
 						_showClient(clientResult);
@@ -6944,7 +6944,7 @@ SinaEditor.plugins.add('indentBtn',function(args){
 	var editor = this;
 
 	var btnConf = {
-		title:'增加缩进',
+		title:'Increase indent',
 		normalClass : 'ico_indent_1'
 		,disabledClass : 'ico_indent_4'
 		,clickedClass : 'ico_indent_3'
@@ -7118,7 +7118,7 @@ SinaEditor.plugins.add('italic',function(args){
 		var isItalic = editor.operateState.italic;
 		
 		if(isItalic) {
-			console.log('执行去斜体操作');
+			console.log('UnItalic');
 			SinaEditor.range.removeStyle(editor, {
 	            'useTagName': ['i','em']
 	        });
@@ -7129,7 +7129,7 @@ SinaEditor.plugins.add('italic',function(args){
 	        });
 			btn.setState(SinaEditor.BUTTONSTATE.NORMAL);
 		} else {
-			console.log('执行斜体操作');
+			console.log('Italic');
 			SinaEditor.range.applyStyle(editor, {
 	            'useTagName': 'em'
 	        });
@@ -7171,7 +7171,7 @@ SinaEditor.plugins.add('italicBtn',function(args){
 	var editor = this;
 
 	var btnConf = {
-		title:'斜体',
+		title:'Italic',
 		normalClass : 'ico_italic_1'
 		,disabledClass : 'ico_italic_4'
 		,clickedClass : 'ico_italic_3'
@@ -7229,7 +7229,7 @@ SinaEditor.plugins.add('justifycenterBtn',function(args){
 	var editor = this;
 
 	var btnConf = {
-		title:'居中',
+		title:'Center',
 		normalClass : 'ico_justifycenter_1'
 		,disabledClass : 'ico_justifycenter_4'
 		,clickedClass : 'ico_justifycenter_3'
@@ -7288,7 +7288,7 @@ SinaEditor.plugins.add('justifyleftBtn',function(args){
 	var editor = this;
 	
 	var btnConf = {
-		title:'居左',
+		title:'Left',
 		normalClass : 'ico_justifyleft_1'
 		,disabledClass : 'ico_justifyleft_4'
 		,clickedClass : 'ico_justifyleft_3'
@@ -7348,7 +7348,7 @@ SinaEditor.plugins.add('justifyrightBtn',function(args){
 	var editor = this;
 
 	var btnConf = {
-		title:'居右',
+		title:'Right',
 		normalClass : 'ico_justifyright_1'
 		,disabledClass : 'ico_justifyright_4'
 		,clickedClass : 'ico_justifyright_3'
@@ -7516,7 +7516,7 @@ SinaEditor.plugins.add('link',function(args){
 		
         if (!link && !range) {
             //2a.不传递：不做任何操作。
-			console.log("2a.不传递：不做任何操作。");
+			console.log("2a. not passed: no action.");
             return;
         }
         
@@ -7591,7 +7591,7 @@ SinaEditor.plugins.add('linkBtn',function(args){
 	var hidden = linkPanel.nodes.hidden;
 	
 	var btnConf = {
-		title:' 插入链接',
+		title:'Insert link',
         normalClass: 'ico_link_1',
         disabledClass: 'ico_link_4',
         clickedClass: 'ico_link_3',
@@ -7636,7 +7636,7 @@ SinaEditor.plugins.add('linkPanel',function(args){
     var editor = this;
 	
     var linkPanel = SinaEditor.winDialog.create({
-        title: '添加链接',
+        title: 'Insert link',
         content: SinaEditor.TOOLCONF.linkTemplate,
 		funcClose:function(){
 			_back();
@@ -7732,7 +7732,7 @@ SinaEditor.plugins.add('markListBtn',function(args){
 	var editor = this;
 	
 	var btnConf = {
-		title:'项目符号',
+		title:'Unordered List',
 		normalClass : 'ico_marklist_1'
 		,disabledClass : 'ico_marklist_4'
 		,clickedClass : 'ico_marklist_3'
@@ -7793,7 +7793,7 @@ SinaEditor.plugins.add('numberListBtn',function(args){
 	var editor = this;
 	
 	var btnConf = {
-		title:'数字符号',
+		title:'Ordered list',
 		normalClass : 'ico_numberlist_1'
 		,disabledClass : 'ico_numberlist_4'
 		,clickedClass : 'ico_numberlist_3'
@@ -7852,7 +7852,7 @@ SinaEditor.plugins.add('outdentBtn',function(args){
 	var editor = this;
 
 	var btnConf = {
-		title:'减少缩进',
+		title:'Decrease indent',
 		normalClass : 'ico_outdent_1'
 		,disabledClass : 'ico_outdent_4'
 		,clickedClass : 'ico_outdent_3'
@@ -8070,7 +8070,7 @@ SinaEditor.plugins.add('redoManager', function(args){
                     setTimeout(function(){
                         editor.entyWin.clearTimeout(editor._.doManagerBufferTimmer);
                         editor._.doManagerBufferTimmer = editor.entyWin.setTimeout(function(){
-                            console.log("空闲" + editor._.doManagerBuffer + "毫秒就保存");
+                            console.log("Save after " + editor._.doManagerBuffer + " seconds of idle");
                             SinaEditor.redoManager.save(editor);
                         }, editor._.doManagerBuffer);
                     }, 0);
@@ -8085,7 +8085,7 @@ SinaEditor.plugins.add('redoBtn',function(args){
 	var editor = this;
 
 	var btnConf = {
-		title:'重做',
+		title:'Redo',
 		normalClass : 'ico_redo_1'
 		,disabledClass : 'ico_redo_4'
 		,clickedClass : 'ico_redo_3'
@@ -8209,7 +8209,7 @@ SinaEditor.plugins.add('showSourceBtn',function(args){
 	};
 
 	var btnConf = {
-		title:'查看源代码',
+		title:'View source',
         normalClass: 'ico_showsrc_1',
         disabledClass: 'ico_showsrc_4',
         clickedClass: 'ico_showsrc_3',
@@ -8320,7 +8320,7 @@ SinaEditor.plugins.add('tableUIBtn',function(args){
 	var editor = this;
 	
 	var btnConf = {
-		title:'插入表格',
+		title:'Insert table',
 		normalClass : 'ico_table_1'
 		,disabledClass : 'ico_table_4'
 		,clickedClass : 'ico_table_3'
@@ -8466,14 +8466,14 @@ SinaEditor.plugins.add('underline',function(args){
 		var isUnderline = editor.operateState.underline;
 		
 		if(isUnderline) {
-			console.log('执行去下划线操作');
+			console.log('Remove underline');
 			SinaEditor.range.removeStyle(editor, {
 	            'useTagName': 'span',
 	            'style': 'textDecoration'
 	        });
 			btn.setState(SinaEditor.BUTTONSTATE.NORMAL);
 		} else {
-			console.log('执行加下划线操作');
+			console.log('Underline');
 			SinaEditor.range.applyStyle(editor, {
 	            'useTagName': 'span',
 	            'style': 'textDecoration',
@@ -8517,7 +8517,7 @@ SinaEditor.plugins.add('underlineBtn',function(args){
 	var editor = this;
 
 	var btnConf = {
-		title:'下划线',
+		title:'Underline',
 		normalClass : 'ico_underline_1'
 		,disabledClass : 'ico_underline_4'
 		,clickedClass : 'ico_underline_3'
@@ -8548,7 +8548,7 @@ SinaEditor.plugins.add('undoBtn',function(args){
     var editor = this;
 
 	var btnConf = {
-		title:'撤销',
+		title:'Undo',
 		normalClass : 'ico_undo_1'
 		,disabledClass : 'ico_undo_4'
 		,clickedClass : 'ico_undo_3'
@@ -8809,7 +8809,7 @@ SinaEditor.$abstract.baseEditor = function(oOption){
 						if(_this.option.eventBlackList.indexOf(ev) < 0) {
 							SinaEditor.ev.$regEvent(ev,_this);
 						} else {
-							console.log(_this.option.id+'在黑名单中：'+ev);
+							console.log(_this.option.id+'Blacklisted:'+ev);
 						}
 					}
 				}
@@ -8819,7 +8819,7 @@ SinaEditor.$abstract.baseEditor = function(oOption){
 				_this.setState(SinaEditor.STATE.CREATED);
 				_this.setState(SinaEditor.STATE.EDITING);
 			} else {
-				console.log("等一下");
+				console.log("Hold on");
 				i--;
 			}
         }, 10);
@@ -8860,7 +8860,7 @@ SinaEditor.$abstract.baseEditor = function(oOption){
 		}
 		var jobObj = plugnFuc.call(this,pluginConf.args || {}) || {};
 		//var jobObj = SinaEditor.plugins[pluginConf.name](this,pluginConf.args);
-		console.log(this.option.id+'添加job:'+pluginConf.name);
+		console.log(this.option.id+'Adding job:'+pluginConf.name);
         //var job = jobObj['initialize'];
 		var job = jobObj.initialize;
 		//var jEvents = jobObj['events'];
@@ -8882,10 +8882,10 @@ SinaEditor.$abstract.baseEditor = function(oOption){
 					var ev = null;
 					
 					if(!target) {
-						console.error('!!!!!+'+ev+'+绑定失败...');
+						console.error('!!!!!+'+ev+'+Binding failed...');
 					}
 					for(ev in events) {
-						console.log(target + '绑定' + ev);
+						console.log(target + 'Bind' + ev);
 						SinaEditor.ev.add(target , ev , events[ev],{'srcEditor':this});
 					}
 				}
@@ -11682,7 +11682,7 @@ SinaEditor._.ModuleDialog=function(tplConfig,iconSet,cfg){
 			dlg.nodes.icon.alt=this.__iconSet[cfg.icon || "01"].alt;
 		}
 		if(dlg.nodes.btnOk){
-			dlg.nodes.btnOk.innerHTML=cfg.textOk || "确定";
+			dlg.nodes.btnOk.innerHTML=cfg.textOk || "OK";
 			SinaEditor.ev.add(dlg.nodes.btnOk,'click',function(ev){
 				dlg.hidden(cfg.renderer || me.__cfg.renderer);
 				if(cfg.funcOk) {
@@ -11720,7 +11720,7 @@ SinaEditor._.ModuleDialog=function(tplConfig,iconSet,cfg){
 		var me=this;
 		
 		if(dlg.nodes.titleName) {
-			dlg.nodes.titleName.innerHTML=cfg.title || "提示";
+			dlg.nodes.titleName.innerHTML=cfg.title || "Notice";
 		}
 		
 		if(dlg.nodes.btnClose){
@@ -11921,7 +11921,7 @@ SinaEditor.winDialog={};
 				'<thead id="#{titleBar}">',
 					'<tr>',
 						'<th class="tLeft"><span></span></th>',
-						'<th class="tMid"><div class="bLyTop"><strong id="#{titleName}">提示标题</strong><cite><a id="#{btnClose}" href="#" onclick="return false;" class="CP_w_shut" title="关闭">关闭</a></cite></div></th>',
+						'<th class="tMid"><div class="bLyTop"><strong id="#{titleName}">Notice title</strong><cite><a id="#{btnClose}" href="#" onclick="return false;" class="CP_w_shut" title="Close">Close</a></cite></div></th>',
 						'<th class="tRight"><span></span></th>',
 					'</tr>',
 				'</thead>',
@@ -11957,7 +11957,7 @@ SinaEditor.winDialog={};
 				'<thead id="#{titleBar}">',
 					'<tr>',
 						'<th class="tLeft"><span></span></th>',
-						'<th class="tMid"><div class="bLyTop"><strong id="#{titleName}">提示标题</strong><cite><a id="#{btnClose}" href="#" onclick="return false;" class="CP_w_shut" title="关闭">关闭</a></cite></div></th>',
+						'<th class="tMid"><div class="bLyTop"><strong id="#{titleName}">Notice title</strong><cite><a id="#{btnClose}" href="#" onclick="return false;" class="CP_w_shut" title="Close">Close</a></cite></div></th>',
 						'<th class="tRight"><span></span></th>',
 					'</tr>',
 				'</thead>',
@@ -11997,8 +11997,8 @@ SinaEditor.winDialog={};
 						'<th class="tLeft"><span></span></th>',
 						'<th class="tMid">',
 							'<div class="bLyTop">',
-								'<strong id="#{titleName}">提示标题</strong>',
-								'<cite><a id="#{btnClose}" href="#" onclick="return false;" class="CP_w_shut" title="关闭">关闭</a></cite>',
+								'<strong id="#{titleName}">Notice title</strong>',
+								'<cite><a id="#{btnClose}" href="#" onclick="return false;" class="CP_w_shut" title="Close">Close</a></cite>',
 							'</div>',
 						'</th>',
 						'<th class="tRight"><span></span></th>',
@@ -12031,10 +12031,10 @@ SinaEditor.winDialog={};
 	 * "04":[?]
 	 */
 	var	iconSet={
-		"01":{"class":"SG_icon SG_icon201","alt":"警告"},
-		"02":{"class":"SG_icon SG_icon202","alt":"失败"},
-		"03":{"class":"SG_icon SG_icon203","alt":"成功"},
-		"04":{"class":"SG_icon SG_icon204","alt":"询问"}
+		"01":{"class":"SG_icon SG_icon201","alt":"Warning"},
+		"02":{"class":"SG_icon SG_icon202","alt":"Fail"},
+		"03":{"class":"SG_icon SG_icon203","alt":"Success"},
+		"04":{"class":"SG_icon SG_icon204","alt":"Ask"}
 	};
 
 	SinaEditor.winDialog = new SinaEditor._.ModuleDialog(dialogTemplates, iconSet,{
